@@ -7,8 +7,9 @@
 	$(document).ready(function(){
 		$("button").click(function(){
 			$("p").hide("slow",function(){
-				alert("Paragraf Pemrograman Web TI Telah Disembunyikan");
+				alert("Paragraf Pemrograman Web TI Telah Disembunyikan").slideUp(100);
 			});
+			$("body").css("background","black");
 		});
 	});
 	</script>
