@@ -1,0 +1,92 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a {
+	text-decoration: none;
+	color: #e55900;
+}
+a:hover {
+	text-decoration: none;
+}
+.form {
+	width: 500px;
+	border: 1px solid #222;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 2rem;
+	animation: zoomInUp 0.5s ease;
+}
+.form .atas {
+	margin: 25px;
+}
+.form .bawah {
+	padding: 20px;
+	background: #ccc
+}
+.form .bawah a {
+	color:#fff;
+	padding: 10px 15px;
+	display: block;
+	text-align: center;
+}
+.form .bawah ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 35px;
+}
+.form .bawah  ul li {
+	width: 220px;
+	background: #009933;
+	float: left;
+	margin-right: 10px;
+	font-size: 12px;
+}
+.form .bawah  ul li:hover {
+	background: #fff;
+}
+.form .bawah  ul li:hover a {
+	color:#009933;
+}
+.form .bawah  ul li:last-child:hover a {
+	color:#446DB0;
+}
+.form .bawah  ul li:last-child:hover {
+	background: #fff
+}
+.form .bawah  ul li i  {
+	margin-right: 10px;
+}
+.form .bawah ul li:last-child {
+	margin-right: 0;
+	background: #446DB0
+}
+.btn {
+	padding: 5px 20px;
+	border-radius: 0;
+	border:none;
+	background: #fff;
+	width: 130px;
+}
+.btn-primary {
+	background: #e55900;
+	margin-left: 10px;
+}
+.form .atas h3 {
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.form .atas .forget {
+	padding: 50px 0
+}
+.form .daftar {
+	font-size:16px;
+}
+.form-control {
+	border-radius: 0;
+}
+.form-control:focus {
+	border-color: #222;
+	outline-style:none;
+	box-shadow:none;
+}
